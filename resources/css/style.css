@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    background-color: #EFEFEF;
+    background-size: cover;
+    position: fixed;
+    color: #474747;
+    z-index: 100;
+}
+
+header, footer {
+    font-family: 'Muli', Verdana, sans-serif;
+    font-weight: 400;
+}
+
+header nav a {
+    font-size: 18px;
+    color: #474747;
+}
+
+header img {
+    margin-left: 24px;
+    margin-right: 5px;
+}
+
+header_nav_space {
+    margin-right: 16px;
+}
+
+header nav a {
+    font-size: 18px;
+    color: #474747;
+}
+
+header nav {
+    font-size: 0;
+    margin-right: 12px;
+}
+
+.banner img {
+    margin: 32px 24px;
+    width: 55%;
+    height: 55%;
+}
+
+.banner_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 36px;
+}
+
+@media only screen and (max-width: 840px)
+style.css:205
+#banner_heading {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+#banner_heading {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 840px)
+style.css:209
+#banner_below {
+    font-size: 18px;
+}
+
+#banner_below {
+    font-weight: 500;
+    width: 75%;
+    margin-bottom: 30px;
+}
